@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    overflow: hidden;
+    height: 100vh;
+}
+.nav-area{
+    background:color: seagreen;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+.logo{
+    margin-top: 0 50px;
+    height: 60px;
+    float: left;
+    color: seagreen;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.menu-area{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu-area li{
+    font-display: inline block;
+    margin: 5px 10PX;
+
+}
+.menu-area li a{
+    text text-decoration: none;
+    color: rgb(219,195,183);
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.menu-area li a:hover{
+    color: black;
+}
+.banner-text{
+    position: absolute;
+     top: 50%;
+     left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.banner-text h2{
+    color: slateblue;
+    font-size: 50px;
+    margin: 0;
+}
+.banner-text p{
+    color: navy;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+.btn{
+    display: inline-block;
+    margin-top: 5%;
+    background: transparent;
+    border: thin;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 3px solid white;
+    padding: 10px 25px;
+    color: brown;
+    border-radius: 20px;
+}
